@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main">
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="logo11.png" alt="logo" class="logo"> 
+                
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#sec">Test Series</a></li>
+                <li class="item"><a href="#about">About</a></li>
+                <li class="item"><a href="#enquiry">Enquiry</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+
+            </ul>
+            <form class="search-form" action="/search" method="GET">
+                <input type="text" name="query" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+            <div id="google_translate_element"></div>
+            <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,fr,de'}, 'google_translate_element');
+              }
+            </script>
+            </nav>
+        </div>
+    </div>
+    </section>
+    <section id="home">
+    <div id="home">
+        <div class="text">
+            <h1>
+                Are you a <br><span>WEB DEVELOPER</span>
+            </h1>
+            <p>
+                YOU ARE AT THE RIGHT PLACE
+            </p>
+            <h2>NOW TEST YOUR KNOWLEDGE WITH THE FREE QUIZES BY US</h2>
+
+            <button class="cn"><a href="QUIZ.html">TAKE QUIZ</a></button>
+        </div>
+        <div class="form">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter Email Here"><br>
+            <input type="password" name="" placeholder="Enter Password Here"><br>
+            <button class="btnn"><a href="#">Login</a></button>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h1>About us</h1><br><br>
+    <p>
+        At the <span>QUIZ WORLD</span> we provide best quiz questions based on your domain. These quizes are to test your own knowledge as a web developer and to test how good is your learning going. These questions are designed by the best problem setters who individually are the best web developers in our team.<br><br>
+        With 1.8+ Crore Students and India's Highest Selection Rate amongst online learning platforms, you can surely rely on us to excel
+<br><br>
+<span>QUIZWORLD <br> Helps You Grow as a Web Developer</span> <br>
+    </p>
+</section>
+<section id="enquiry">
+    <h2>Enquiry</h2>
+    <form class="enquiry-form" action="/submit-enquiry" method="POST">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Submit Enquiry</button>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>For any questions or concerns, please feel free to contact us using the information below:</p>
+    <ul>
+        <li>Email: info@quizworld.com</li>
+        <li>Phone: +917355637654</li>
+        <li>Address: Golghar Chowk, Gorakhpur, U.P., India</li>
+    </ul>
+</section>
+
+  <footer>
+    <p><center> LETS GO SOCIAL</center></p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/your-instagram-account" target="_blank" rel="noopener noreferrer">
+            <img src="insta.jpg" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/company/your-linkedin-page" target="_blank" rel="noopener noreferrer">
+            <img src="linkedin.jpg" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/company/your-linkedin-page" target="_blank" rel="noopener noreferrer">
+            <img src="thread.jpg" alt="LinkedIn" class="social-icon">
+        </a>
+    </div>
+
+
+    <p>&copy; 2023 QuizWorld. All rights reserved.</p>
+
+  </footer>
